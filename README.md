@@ -5,6 +5,8 @@ This repo contains most recent binaries - NDN-RTC library and demo app (**MacOS 
 
 How to run NDN-RTC
 ---
+**Make sure that your local NFD is connected to the testbed!**
+
 Script `rundemo.sh` lauches included demo app binary ndnrtc-demo with NDN-RTC library libndnrtc.0.dylib and configuration file ndnrtc.cfg.
 
 For each run, it is recommended to execute this script from a new folder (as ndnrtc-demo app will extensively write to log files and they may be overwritten):
@@ -20,5 +22,3 @@ The configuration file is ready for NDNComm 2014 Live NDN-RTC producer. In order
 
 * username = **ndncomm**
 * prefix = **/ndn/edu/uci** (is set to be the default)
-
-> Make sure that your local NFD is connected to the testbed!
