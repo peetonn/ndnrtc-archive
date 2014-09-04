@@ -8,7 +8,7 @@ CFGNAME="ndnrtc.cfg"
 RUNDIR="."
 APPNAME="ndnrtc-demo"
 
-function assert_dir_access { 
+assert_dir_access() { 
 	fail=0
     (cd ${1:?pathname expected}) || fail=1
     
