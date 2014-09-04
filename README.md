@@ -1,7 +1,7 @@
 ndnrtc-archive
 ==============
 
-This repo contains most recent binaries (those that currently under development) and other supporting files for [NDN-RTC project](https://github.com/remap/ndnrtc).
+This repo contains most recent binaries - NDN-RTC library and demo app (**MacOS only!**) (those that currently under development) and other supporting files for [NDN-RTC project](https://github.com/remap/ndnrtc).
 
 How to run NDN-RTC
 ---
