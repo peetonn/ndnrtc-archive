@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CURDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CURDIR="$( cd "$( dirname "$0}" )" && pwd )"
 RESDIR="${CURDIR}/."
 LIBDIR="${CURDIR}/."
 LIBNAME="libndnrtc.0.dylib"
